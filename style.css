@@ -1,0 +1,31 @@
+/* Base layout stlying */
+.cards {
+display: flex;
+flex-wrap:wrap;
+gap: 1rem;
+}
+
+@media (min-width:768px) {
+.cards {
+justify-content: space-between;
+}
+}
+
+img {
+max-width:100%;
+heiht:auto;
+}
+
+:root {
+--ink:#172554;
+--paper:#ffffff;
+--accent:#09488;
+--gold:#eab308;
+--text-size:1rem;
+}
+
+body {
+color: var(--ink);
+background-color: var(--paper);
+font-size: var(--text-size;
+}
